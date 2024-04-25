@@ -16,14 +16,18 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//app.UseHttpsRedirection();
-//
-//app.UseAuthorization();
-//
-//app.MapControllers();
+app.UseHttpsRedirection();
 
-app.Run(async (context) => 
+app.UseRouting();
+
+app.UseAuthorization();
+
+#pragma warning disable ASP0014 // Suggest using top level route registrations
+app.UseEndpoints(endpoints =>
 {
-    await context.Response.WriteAsync("hello world!");
+    endpoints.MapControllers(); 
 });
+#pragma warning restore ASP0014 // Suggest using top level route registrations
+
+app.MapControllers();
 app.Run();
