@@ -1,4 +1,6 @@
-﻿namespace CityInfo.API.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CityInfo.API.Models
 {
     public class PointOfInterestDto
     {
