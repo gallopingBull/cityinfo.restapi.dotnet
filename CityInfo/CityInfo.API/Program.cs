@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.StaticFiles;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
 // Add services to the container.
 
 builder.Services.AddControllers(options =>
@@ -9,15 +10,15 @@ builder.Services.AddControllers(options =>
     options.ReturnHttpNotAcceptable = true;
 }).AddNewtonsoftJson().AddXmlDataContractSerializerFormatters(); 
 
-builder.Services.AddProblemDetails(options =>
-{
-    options.CustomizeProblemDetails = ctx =>
-        {
-            ctx.ProblemDetails.Extensions.Add("AdditionalInfo", "Additional info example");
-            ctx.ProblemDetails.Extensions.Add("Server", Environment.MachineName);
-        };
-}); 
-
+//builder.Services.AddProblemDetails(options =>
+//{
+//    options.CustomizeProblemDetails = ctx =>
+//        {
+//            ctx.ProblemDetails.Extensions.Add("AdditionalInfo", "Additional info example");
+//            ctx.ProblemDetails.Extensions.Add("Server", Environment.MachineName);
+//        };
+//}); 
+//
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
