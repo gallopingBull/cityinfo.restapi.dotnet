@@ -36,3 +36,13 @@ D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\De
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Newtonsoft.Json.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
