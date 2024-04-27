@@ -6,18 +6,26 @@ namespace CityInfo.API.Controllers
     [ApiController]
     [Route("api/cities")]
     //[Route("api/[controller]")] <-- this will automatically add the controller name to the URI.
-    public class ClassCitiesController : ControllerBase
+    public class CitiesController : ControllerBase
     {
+
+        private readonly CitiesDataStore _cityDataStore;
+
+        public CitiesController(CitiesDataStore cityDataStore) 
+        { 
+            _cityDataStore = cityDataStore ?? throw new ArgumentNullException(nameof(cityDataStore)); 
+        }
+
         [HttpGet]
         public ActionResult<CityDto> GetCities() 
         {
-            return Ok(CitiesDataStore.Current.Cities);
+            return Ok(_cityDataStore.Cities);
         }
 
         [HttpGet("{id}")]   
         public ActionResult<CityDto> GetCity(int id) 
         {
-            var cityToReturn = CitiesDataStore.Current.Cities.FirstOrDefault(c => c.Id == id);
+            var cityToReturn = _cityDataStore.Cities.FirstOrDefault(c => c.Id == id);
 
             if (cityToReturn == null) 
             {
