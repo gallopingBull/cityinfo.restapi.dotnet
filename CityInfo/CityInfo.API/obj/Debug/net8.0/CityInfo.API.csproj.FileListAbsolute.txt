@@ -141,3 +141,5 @@ D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\De
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\AutoMapper.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
