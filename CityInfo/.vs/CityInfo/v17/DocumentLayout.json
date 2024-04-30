@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\services\\localmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\localmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\imailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\services\\cloudmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\cloudmailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\citiesdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\citiesdatastore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\dbcontexts\\cityinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\dbcontexts\\cityinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\entities\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\entities\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 29,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,77 +57,112 @@
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\CitiesController.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "CityInfo.API\\Controllers\\CitiesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T00:12:07.381Z",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CityInfo.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CityInfo.API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T02:31:30.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.json",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.json",
+              "RelativeToolTip": "CityInfo.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T02:20:01.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.production.json",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.production.json",
+              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.production.json",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.production.json",
+              "RelativeToolTip": "CityInfo.API\\appsettings.production.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T02:19:56.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.Development.json",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.Development.json",
+              "RelativeToolTip": "CityInfo.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-30T02:19:45.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "CitiesDataStore.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\CitiesDataStore.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\CitiesDataStore.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\CitiesDataStore.cs",
-              "RelativeToolTip": "CityInfo.API\\CitiesDataStore.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAKAAAA",
+              "Title": "CityInfoContext.cs",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "RelativeToolTip": "CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwD8AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T00:08:07.956Z"
+              "WhenOpened": "2024-04-30T00:50:21.892Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CloudMailService.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\CloudMailService.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Services\\CloudMailService.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\CloudMailService.cs",
-              "RelativeToolTip": "CityInfo.API\\Services\\CloudMailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "PointOfInterest.cs",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\PointOfInterest.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Entities\\PointOfInterest.cs",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\PointOfInterest.cs",
+              "RelativeToolTip": "CityInfo.API\\Entities\\PointOfInterest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:59:52.849Z"
+              "WhenOpened": "2024-04-30T00:38:20.699Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IMailService.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\IMailService.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Services\\IMailService.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\IMailService.cs",
-              "RelativeToolTip": "CityInfo.API\\Services\\IMailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "City.cs",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\City.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Entities\\City.cs",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\City.cs",
+              "RelativeToolTip": "CityInfo.API\\Entities\\City.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:59:28.685Z"
+              "WhenOpened": "2024-04-30T00:32:48.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LocalMailService.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\LocalMailService.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Services\\LocalMailService.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\LocalMailService.cs",
-              "RelativeToolTip": "CityInfo.API\\Services\\LocalMailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:37:30.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Program.cs",
               "RelativeDocumentMoniker": "CityInfo.API\\Program.cs",
               "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Program.cs",
               "RelativeToolTip": "CityInfo.API\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAwwCgAAAAFAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADAAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T01:51:39.984Z"
+              "WhenOpened": "2024-04-24T01:51:39.984Z",
+              "EditorCaption": ""
             }
           ]
         },
