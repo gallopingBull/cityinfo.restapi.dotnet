@@ -19,7 +19,7 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<CityWithoutPointsOfInterestDto>> GetCities() 
+        public async Task<IActionResult> GetCities() 
         {
             var cityEntities = await _cityInfoRepository.GetCitiesAsync();
 
@@ -28,18 +28,20 @@ namespace CityInfo.API.Controllers
         }
 
         [HttpGet("{id}")]   
-        public ActionResult<CityDto> GetCity(int id) 
+        public async Task<ActionResult<CityDto>> GetCity(int id, bool includePointsOfInterest = false) 
         {
+            var city = await _cityInfoRepository.GetCityAsync(id, includePointsOfInterest);
+            if (city == null) 
+            { 
+                return NotFound();
+            }
 
-            //var cityToReturn = _cityDataStore.Cities.FirstOrDefault(c => c.Id == id);
-            //
-            //if (cityToReturn == null) 
-            //{
-            //    return NotFound();
-            //}
-            //
-            //return Ok(cityToReturn);
-            return Ok();
+            if (includePointsOfInterest) 
+            { 
+                return Ok(_mapper.Map<CityDto>(city));
+            }
+
+            return Ok(_mapper.Map<CityWithoutPointsOfInterestDto>(city));
         }
     }
 }
