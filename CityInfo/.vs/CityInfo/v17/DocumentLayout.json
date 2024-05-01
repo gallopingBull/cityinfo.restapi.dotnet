@@ -37,7 +37,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 41,
+          "DockedWidth": 63,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -64,7 +64,7 @@
               "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\PointsOfInterestController.cs",
               "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Controllers\\PointsOfInterestController.cs",
               "RelativeToolTip": "CityInfo.API\\Controllers\\PointsOfInterestController.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAgwFsAAAAAAAAA",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAqwHMAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T23:43:10.027Z",
               "EditorCaption": ""
@@ -98,7 +98,7 @@
           ]
         },
         {
-          "DockedWidth": 42,
+          "DockedWidth": 20,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -113,7 +113,7 @@
               "RelativeDocumentMoniker": "CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
               "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
               "RelativeToolTip": "CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T00:51:00.07Z",
               "EditorCaption": ""
