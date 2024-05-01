@@ -3,48 +3,32 @@
   "WorkspaceRootPath": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\controllers\\pointsofinterestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\controllers\\pointsofinterestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\services\\cityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\cityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\services\\icityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\icityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\controllers\\pointsofinterestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\controllers\\pointsofinterestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\models\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\models\\citydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\models\\citywithoutpointsofinterestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\models\\citywithoutpointsofinterestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\entities\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\entities\\pointofinterest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\profiles\\pointofinterestprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\profiles\\pointofinterestprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\profiles\\cityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\profiles\\cityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\services\\icityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\icityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|d:\\src\\dotnet projects\\apis\\cityinfo.restapi.dotnet\\cityinfo\\cityinfo.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{ACDE3657-DB11-49E3-A7B5-70DA16A95618}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,7 +37,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 29,
+          "DockedWidth": 22,
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -74,13 +58,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PointsOfInterestController.cs",
               "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Controllers\\PointsOfInterestController.cs",
               "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\PointsOfInterestController.cs",
               "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Controllers\\PointsOfInterestController.cs",
               "RelativeToolTip": "CityInfo.API\\Controllers\\PointsOfInterestController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAqwDEAAAAaAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwDUAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T23:43:10.027Z",
               "EditorCaption": ""
@@ -88,123 +72,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PointOfInterestProfile.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
-              "RelativeToolTip": "CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:40:34.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "City.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\City.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Entities\\City.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\City.cs",
-              "RelativeToolTip": "CityInfo.API\\Entities\\City.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:27:45.504Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CityProfile.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\CityProfile.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Profiles\\CityProfile.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\CityProfile.cs",
-              "RelativeToolTip": "CityInfo.API\\Profiles\\CityProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T23:01:52.283Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CityWithoutPointsOfInterestDto.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Models\\CityWithoutPointsOfInterestDto.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Models\\CityWithoutPointsOfInterestDto.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Models\\CityWithoutPointsOfInterestDto.cs",
-              "RelativeToolTip": "CityInfo.API\\Models\\CityWithoutPointsOfInterestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:41:08.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CityDto.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Models\\CityDto.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Models\\CityDto.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Models\\CityDto.cs",
-              "RelativeToolTip": "CityInfo.API\\Models\\CityDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:38:35.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Controllers\\CitiesController.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "CityInfo.API\\Controllers\\CitiesController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T22:34:33.38Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CityInfoRepository.cs",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\CityInfoRepository.cs",
-              "RelativeDocumentMoniker": "CityInfo.API\\Services\\CityInfoRepository.cs",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\CityInfoRepository.cs",
-              "RelativeToolTip": "CityInfo.API\\Services\\CityInfoRepository.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAA1wB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T21:04:26.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ICityInfoRepository.cs",
               "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\ICityInfoRepository.cs",
               "RelativeDocumentMoniker": "CityInfo.API\\Services\\ICityInfoRepository.cs",
               "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\ICityInfoRepository.cs",
               "RelativeToolTip": "CityInfo.API\\Services\\ICityInfoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T20:53:46.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.production.json",
-              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.production.json",
-              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.production.json",
-              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\appsettings.production.json",
-              "RelativeToolTip": "CityInfo.API\\appsettings.production.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-30T02:19:56.817Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Program.cs",
               "RelativeDocumentMoniker": "CityInfo.API\\Program.cs",
@@ -218,12 +98,64 @@
           ]
         },
         {
-          "DockedWidth": 74,
-          "SelectedChildIndex": -1,
+          "DockedWidth": 61,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PointOfInterestProfile.cs",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
+              "RelativeToolTip": "CityInfo.API\\Profiles\\PointOfInterestProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T00:51:00.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CityProfile.cs",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\CityProfile.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Profiles\\CityProfile.cs",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Profiles\\CityProfile.cs",
+              "RelativeToolTip": "CityInfo.API\\Profiles\\CityProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T00:52:09.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityInfoRepository.cs",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\CityInfoRepository.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\CityInfoRepository.cs",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Services\\CityInfoRepository.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\CityInfoRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCcAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T21:04:26.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PointOfInterest.cs",
+              "DocumentMoniker": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\PointOfInterest.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Entities\\PointOfInterest.cs",
+              "ToolTip": "D:\\src\\dotnet Projects\\APIs\\cityinfo.restapi.dotnet\\CityInfo\\CityInfo.API\\Entities\\PointOfInterest.cs",
+              "RelativeToolTip": "CityInfo.API\\Entities\\PointOfInterest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T00:38:06.747Z",
+              "EditorCaption": ""
             }
           ]
         }
