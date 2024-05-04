@@ -1,5 +1,6 @@
 ﻿using CityInfo.API.DbContexts;
 using CityInfo.API.Entities;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace CityInfo.API.Services
@@ -15,7 +16,25 @@ namespace CityInfo.API.Services
 
         public async Task<IEnumerable<City>> GetCitiesAsync()
         {
-            return await _context.Cities.OrderBy(c => c.Name).ToListAsync();
+            return await _context.Cities
+                .OrderBy(c => c.Name)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<City>> GetCitiesAsync([FromQuery]string? name)
+        {
+
+            if(string.IsNullOrEmpty(name))
+            {
+                return await GetCitiesAsync();
+            }
+
+            name = name.Trim();
+
+            return await _context.Cities
+                .Where(c => c.Name == name)
+                .OrderBy(c => name)
+                .ToListAsync();
         }
 
         public async Task<City?> GetCityAsync(int cityId, bool includePointsOfInterest)
