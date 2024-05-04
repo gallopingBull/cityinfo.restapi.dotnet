@@ -1452,3 +1452,976 @@ RETURNING "Id";
 2024-05-04 15:57:53.349 -07:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
 2024-05-04 15:57:53.351 -07:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (1ms).
 2024-05-04 15:57:53.352 -07:00 [INF] Request finished HTTP/1.1 POST https://localhost:7186/api/cities/3/pointsofinterest - 201 112 application/json; charset=utf-8 1442.8587ms
+2024-05-04 16:15:38.835 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-04 16:15:38.901 -07:00 [DBG] Hosting starting
+2024-05-04 16:15:38.920 -07:00 [INF] User profile is available. Using 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 16:15:38.926 -07:00 [DBG] Reading data from file 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys\key-af082861-6fdc-4cd8-b82d-7c2cb61daaac.xml'.
+2024-05-04 16:15:38.932 -07:00 [DBG] Found key {af082861-6fdc-4cd8-b82d-7c2cb61daaac}.
+2024-05-04 16:15:38.938 -07:00 [DBG] Considering key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} with expiration date 2024-08-02 22:21:15Z as default key.
+2024-05-04 16:15:38.940 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:15:38.942 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-04 16:15:38.943 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:15:38.947 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-04 16:15:38.949 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-04 16:15:38.951 -07:00 [DBG] Using key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} as the default key.
+2024-05-04 16:15:38.952 -07:00 [DBG] Key ring with default key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} was loaded during application startup.
+2024-05-04 16:15:39.049 -07:00 [INF] Now listening on: https://localhost:7186
+2024-05-04 16:15:39.050 -07:00 [INF] Now listening on: http://localhost:5226
+2024-05-04 16:15:39.051 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-05-04 16:15:39.052 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-04 16:15:39.053 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-04 16:15:39.053 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 16:15:39.054 -07:00 [INF] Hosting environment: Development
+2024-05-04 16:15:39.054 -07:00 [INF] Content root path: D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API
+2024-05-04 16:15:39.055 -07:00 [DBG] Hosting started
+2024-05-04 16:15:39.512 -07:00 [DBG] Connection id "0HN3CI0EDQKR3" accepted.
+2024-05-04 16:15:39.514 -07:00 [DBG] Connection id "0HN3CI0EDQKR3" started.
+2024-05-04 16:15:39.523 -07:00 [DBG] Connection id "0HN3CI0EDQKR4" accepted.
+2024-05-04 16:15:39.524 -07:00 [DBG] Connection id "0HN3CI0EDQKR4" started.
+2024-05-04 16:15:39.540 -07:00 [DBG] Connection id "0HN3CI0EDQKR4" received FIN.
+2024-05-04 16:15:39.540 -07:00 [DBG] Connection id "0HN3CI0EDQKR3" received FIN.
+2024-05-04 16:15:39.545 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:15:39.545 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:15:39.571 -07:00 [DBG] Connection id "0HN3CI0EDQKR3" stopped.
+2024-05-04 16:15:39.571 -07:00 [DBG] Connection id "0HN3CI0EDQKR4" stopped.
+2024-05-04 16:15:39.573 -07:00 [DBG] Connection id "0HN3CI0EDQKR3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:15:39.574 -07:00 [DBG] Connection id "0HN3CI0EDQKR4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:15:39.622 -07:00 [DBG] Connection id "0HN3CI0EDQKR5" accepted.
+2024-05-04 16:15:39.623 -07:00 [DBG] Connection id "0HN3CI0EDQKR5" started.
+2024-05-04 16:15:39.643 -07:00 [DBG] Connection 0HN3CI0EDQKR5 established using the following protocol: "Tls12"
+2024-05-04 16:15:39.672 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - null null
+2024-05-04 16:15:39.735 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-04 16:15:39.785 -07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-05-04 16:15:39.786 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-04 16:15:39.797 -07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-05-04 16:15:39.798 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-04 16:15:39.801 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - 200 null text/html;charset=utf-8 132.4614ms
+2024-05-04 16:15:39.814 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 16:15:39.820 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.882ms
+2024-05-04 16:15:39.836 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2024-05-04 16:15:39.861 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.2288ms
+2024-05-04 16:15:39.903 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - null null
+2024-05-04 16:15:39.996 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.4929ms
+2024-05-04 16:15:56.038 -07:00 [DBG] Connection id "0HN3CI0EDQKR6" accepted.
+2024-05-04 16:15:56.038 -07:00 [DBG] Connection id "0HN3CI0EDQKR6" received FIN.
+2024-05-04 16:15:56.040 -07:00 [DBG] Connection id "0HN3CI0EDQKR7" accepted.
+2024-05-04 16:15:56.039 -07:00 [DBG] Connection id "0HN3CI0EDQKR6" started.
+2024-05-04 16:15:56.045 -07:00 [DBG] Connection id "0HN3CI0EDQKR7" started.
+2024-05-04 16:15:56.046 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:15:56.052 -07:00 [DBG] Connection id "0HN3CI0EDQKR6" stopped.
+2024-05-04 16:15:56.052 -07:00 [DBG] Connection 0HN3CI0EDQKR7 established using the following protocol: "Tls12"
+2024-05-04 16:15:56.054 -07:00 [DBG] Connection id "0HN3CI0EDQKR6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:15:56.058 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:15:56.060 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:15:56.075 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:15:56.078 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:15:56.079 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:15:56.144 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'KJ_HuLI88JfegcVa7E-xx_Bn5d8fJvJS4SF9-zBNj5s'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:15:56.150 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 'KJ_HuLI88JfegcVa7E-xx_Bn5d8fJvJS4SF9-zBNj5s'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:15:56.153 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:15:56.156 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:15:56.159 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:15:56.160 -07:00 [DBG] Connection id "0HN3CI0EDQKR7" completed keep alive response.
+2024-05-04 16:15:56.161 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 103.3534ms
+2024-05-04 16:21:37.130 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-04 16:21:37.207 -07:00 [DBG] Hosting starting
+2024-05-04 16:21:37.228 -07:00 [INF] User profile is available. Using 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 16:21:37.233 -07:00 [DBG] Reading data from file 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys\key-af082861-6fdc-4cd8-b82d-7c2cb61daaac.xml'.
+2024-05-04 16:21:37.241 -07:00 [DBG] Found key {af082861-6fdc-4cd8-b82d-7c2cb61daaac}.
+2024-05-04 16:21:37.247 -07:00 [DBG] Considering key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} with expiration date 2024-08-02 22:21:15Z as default key.
+2024-05-04 16:21:37.250 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:21:37.252 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-04 16:21:37.253 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:21:37.257 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-04 16:21:37.259 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-04 16:21:37.260 -07:00 [DBG] Using key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} as the default key.
+2024-05-04 16:21:37.261 -07:00 [DBG] Key ring with default key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} was loaded during application startup.
+2024-05-04 16:21:37.353 -07:00 [INF] Now listening on: https://localhost:7186
+2024-05-04 16:21:37.355 -07:00 [INF] Now listening on: http://localhost:5226
+2024-05-04 16:21:37.356 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-05-04 16:21:37.357 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-04 16:21:37.358 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-04 16:21:37.359 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 16:21:37.360 -07:00 [INF] Hosting environment: Development
+2024-05-04 16:21:37.361 -07:00 [INF] Content root path: D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API
+2024-05-04 16:21:37.362 -07:00 [DBG] Hosting started
+2024-05-04 16:21:37.628 -07:00 [DBG] Connection id "0HN3CI3P52ROM" accepted.
+2024-05-04 16:21:37.630 -07:00 [DBG] Connection id "0HN3CI3P52ROM" started.
+2024-05-04 16:21:37.639 -07:00 [DBG] Connection id "0HN3CI3P52RON" accepted.
+2024-05-04 16:21:37.640 -07:00 [DBG] Connection id "0HN3CI3P52RON" started.
+2024-05-04 16:21:37.655 -07:00 [DBG] Connection id "0HN3CI3P52ROM" received FIN.
+2024-05-04 16:21:37.655 -07:00 [DBG] Connection id "0HN3CI3P52RON" received FIN.
+2024-05-04 16:21:37.661 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:21:37.661 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:21:37.685 -07:00 [DBG] Connection id "0HN3CI3P52RON" stopped.
+2024-05-04 16:21:37.691 -07:00 [DBG] Connection id "0HN3CI3P52ROM" stopped.
+2024-05-04 16:21:37.693 -07:00 [DBG] Connection id "0HN3CI3P52ROM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:21:37.693 -07:00 [DBG] Connection id "0HN3CI3P52RON" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:21:37.728 -07:00 [DBG] Connection id "0HN3CI3P52ROO" accepted.
+2024-05-04 16:21:37.730 -07:00 [DBG] Connection id "0HN3CI3P52ROO" started.
+2024-05-04 16:21:37.750 -07:00 [DBG] Connection 0HN3CI3P52ROO established using the following protocol: "Tls12"
+2024-05-04 16:21:37.779 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - null null
+2024-05-04 16:21:37.834 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-04 16:21:37.883 -07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-05-04 16:21:37.884 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-04 16:21:37.894 -07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-05-04 16:21:37.895 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-04 16:21:37.897 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - 200 null text/html;charset=utf-8 120.58ms
+2024-05-04 16:21:37.909 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2024-05-04 16:21:37.909 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 16:21:37.925 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 15.7657ms
+2024-05-04 16:21:37.943 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.1309ms
+2024-05-04 16:21:37.960 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - null null
+2024-05-04 16:21:38.058 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 97.4859ms
+2024-05-04 16:21:43.749 -07:00 [DBG] Connection id "0HN3CI3P52ROP" accepted.
+2024-05-04 16:21:43.749 -07:00 [DBG] Connection id "0HN3CI3P52ROP" received FIN.
+2024-05-04 16:21:43.750 -07:00 [DBG] Connection id "0HN3CI3P52ROP" started.
+2024-05-04 16:21:43.751 -07:00 [DBG] Connection id "0HN3CI3P52ROQ" accepted.
+2024-05-04 16:21:43.753 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:21:43.754 -07:00 [DBG] Connection id "0HN3CI3P52ROQ" started.
+2024-05-04 16:21:43.759 -07:00 [DBG] Connection id "0HN3CI3P52ROP" stopped.
+2024-05-04 16:21:43.760 -07:00 [DBG] Connection id "0HN3CI3P52ROP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:21:43.763 -07:00 [DBG] Connection 0HN3CI3P52ROQ established using the following protocol: "Tls12"
+2024-05-04 16:21:43.767 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:21:43.770 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:21:43.786 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:21:43.789 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:21:43.792 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:21:43.855 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:21:43.862 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:21:43.865 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:21:43.869 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:21:43.872 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:21:43.874 -07:00 [DBG] Connection id "0HN3CI3P52ROQ" completed keep alive response.
+2024-05-04 16:21:43.875 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 108.3303ms
+2024-05-04 16:21:45.212 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:21:45.214 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:21:45.215 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:21:45.216 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:21:45.217 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:21:45.219 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:21:45.224 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:21:45.229 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:21:45.230 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:21:45.231 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:21:45.232 -07:00 [DBG] Connection id "0HN3CI3P52ROQ" completed keep alive response.
+2024-05-04 16:21:45.232 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 20.7471ms
+2024-05-04 16:21:54.079 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:21:54.082 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:21:54.083 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:21:54.083 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:21:54.085 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:21:54.086 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:21:54.091 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:21:54.093 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:21:54.096 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:21:54.097 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:21:54.097 -07:00 [DBG] Connection id "0HN3CI3P52ROQ" completed keep alive response.
+2024-05-04 16:21:54.098 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 18.6921ms
+2024-05-04 16:23:39.318 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-04 16:23:39.390 -07:00 [DBG] Hosting starting
+2024-05-04 16:23:39.414 -07:00 [INF] User profile is available. Using 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 16:23:39.420 -07:00 [DBG] Reading data from file 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys\key-af082861-6fdc-4cd8-b82d-7c2cb61daaac.xml'.
+2024-05-04 16:23:39.427 -07:00 [DBG] Found key {af082861-6fdc-4cd8-b82d-7c2cb61daaac}.
+2024-05-04 16:23:39.433 -07:00 [DBG] Considering key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} with expiration date 2024-08-02 22:21:15Z as default key.
+2024-05-04 16:23:39.436 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:23:39.440 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-04 16:23:39.441 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:23:39.445 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-04 16:23:39.447 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-04 16:23:39.450 -07:00 [DBG] Using key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} as the default key.
+2024-05-04 16:23:39.451 -07:00 [DBG] Key ring with default key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} was loaded during application startup.
+2024-05-04 16:23:39.546 -07:00 [INF] Now listening on: https://localhost:7186
+2024-05-04 16:23:39.548 -07:00 [INF] Now listening on: http://localhost:5226
+2024-05-04 16:23:39.549 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-05-04 16:23:39.549 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-04 16:23:39.550 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-04 16:23:39.551 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 16:23:39.551 -07:00 [INF] Hosting environment: Development
+2024-05-04 16:23:39.552 -07:00 [INF] Content root path: D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API
+2024-05-04 16:23:39.553 -07:00 [DBG] Hosting started
+2024-05-04 16:23:39.654 -07:00 [DBG] Connection id "0HN3CI4TGQ9VB" accepted.
+2024-05-04 16:23:39.656 -07:00 [DBG] Connection id "0HN3CI4TGQ9VB" started.
+2024-05-04 16:23:39.666 -07:00 [DBG] Connection id "0HN3CI4TGQ9VC" accepted.
+2024-05-04 16:23:39.667 -07:00 [DBG] Connection id "0HN3CI4TGQ9VC" started.
+2024-05-04 16:23:39.681 -07:00 [DBG] Connection id "0HN3CI4TGQ9VB" received FIN.
+2024-05-04 16:23:39.681 -07:00 [DBG] Connection id "0HN3CI4TGQ9VC" received FIN.
+2024-05-04 16:23:39.687 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:23:39.687 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:23:39.710 -07:00 [DBG] Connection id "0HN3CI4TGQ9VC" stopped.
+2024-05-04 16:23:39.717 -07:00 [DBG] Connection id "0HN3CI4TGQ9VB" stopped.
+2024-05-04 16:23:39.718 -07:00 [DBG] Connection id "0HN3CI4TGQ9VB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:23:39.718 -07:00 [DBG] Connection id "0HN3CI4TGQ9VC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:23:39.766 -07:00 [DBG] Connection id "0HN3CI4TGQ9VD" accepted.
+2024-05-04 16:23:39.768 -07:00 [DBG] Connection id "0HN3CI4TGQ9VD" started.
+2024-05-04 16:23:39.792 -07:00 [DBG] Connection 0HN3CI4TGQ9VD established using the following protocol: "Tls12"
+2024-05-04 16:23:39.820 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - null null
+2024-05-04 16:23:39.882 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-04 16:23:39.930 -07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-05-04 16:23:39.932 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-04 16:23:39.942 -07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-05-04 16:23:39.943 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-04 16:23:39.946 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - 200 null text/html;charset=utf-8 128.9113ms
+2024-05-04 16:23:39.965 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 16:23:39.965 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2024-05-04 16:23:39.974 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 9.1231ms
+2024-05-04 16:23:39.995 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.2884ms
+2024-05-04 16:23:40.021 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - null null
+2024-05-04 16:23:40.117 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.3637ms
+2024-05-04 16:23:47.644 -07:00 [DBG] Connection id "0HN3CI4TGQ9VE" accepted.
+2024-05-04 16:23:47.644 -07:00 [DBG] Connection id "0HN3CI4TGQ9VE" received FIN.
+2024-05-04 16:23:47.647 -07:00 [DBG] Connection id "0HN3CI4TGQ9VE" started.
+2024-05-04 16:23:47.647 -07:00 [DBG] Connection id "0HN3CI4TGQ9VF" accepted.
+2024-05-04 16:23:47.651 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:23:47.652 -07:00 [DBG] Connection id "0HN3CI4TGQ9VF" started.
+2024-05-04 16:23:47.658 -07:00 [DBG] Connection id "0HN3CI4TGQ9VE" stopped.
+2024-05-04 16:23:47.660 -07:00 [DBG] Connection id "0HN3CI4TGQ9VE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:23:47.662 -07:00 [DBG] Connection 0HN3CI4TGQ9VF established using the following protocol: "Tls12"
+2024-05-04 16:23:47.665 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:23:47.668 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:23:47.684 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:23:47.687 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:23:47.690 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:23:47.753 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:23:47.759 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:23:47.763 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:23:47.767 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:23:47.771 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:23:47.772 -07:00 [DBG] Connection id "0HN3CI4TGQ9VF" completed keep alive response.
+2024-05-04 16:23:47.773 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 107.9768ms
+2024-05-04 16:23:56.792 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:23:56.794 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:23:56.796 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:23:56.796 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:23:56.798 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:23:56.800 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:23:56.808 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:23:56.810 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:23:56.811 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:23:56.812 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:23:56.813 -07:00 [DBG] Connection id "0HN3CI4TGQ9VF" completed keep alive response.
+2024-05-04 16:23:56.814 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 21.6477ms
+2024-05-04 16:24:57.537 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-04 16:24:57.615 -07:00 [DBG] Hosting starting
+2024-05-04 16:24:57.637 -07:00 [INF] User profile is available. Using 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 16:24:57.643 -07:00 [DBG] Reading data from file 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys\key-af082861-6fdc-4cd8-b82d-7c2cb61daaac.xml'.
+2024-05-04 16:24:57.649 -07:00 [DBG] Found key {af082861-6fdc-4cd8-b82d-7c2cb61daaac}.
+2024-05-04 16:24:57.655 -07:00 [DBG] Considering key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} with expiration date 2024-08-02 22:21:15Z as default key.
+2024-05-04 16:24:57.658 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:24:57.659 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-04 16:24:57.660 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:24:57.664 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-04 16:24:57.665 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-04 16:24:57.666 -07:00 [DBG] Using key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} as the default key.
+2024-05-04 16:24:57.668 -07:00 [DBG] Key ring with default key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} was loaded during application startup.
+2024-05-04 16:24:57.760 -07:00 [INF] Now listening on: https://localhost:7186
+2024-05-04 16:24:57.761 -07:00 [INF] Now listening on: http://localhost:5226
+2024-05-04 16:24:57.762 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-05-04 16:24:57.762 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-04 16:24:57.763 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-04 16:24:57.764 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 16:24:57.765 -07:00 [INF] Hosting environment: Development
+2024-05-04 16:24:57.766 -07:00 [INF] Content root path: D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API
+2024-05-04 16:24:57.766 -07:00 [DBG] Hosting started
+2024-05-04 16:24:58.091 -07:00 [DBG] Connection id "0HN3CI5KSRAVT" accepted.
+2024-05-04 16:24:58.094 -07:00 [DBG] Connection id "0HN3CI5KSRAVT" started.
+2024-05-04 16:24:58.102 -07:00 [DBG] Connection id "0HN3CI5KSRAVU" accepted.
+2024-05-04 16:24:58.103 -07:00 [DBG] Connection id "0HN3CI5KSRAVU" started.
+2024-05-04 16:24:58.118 -07:00 [DBG] Connection id "0HN3CI5KSRAVU" received FIN.
+2024-05-04 16:24:58.118 -07:00 [DBG] Connection id "0HN3CI5KSRAVT" received FIN.
+2024-05-04 16:24:58.124 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:24:58.124 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:24:58.148 -07:00 [DBG] Connection id "0HN3CI5KSRAVU" stopped.
+2024-05-04 16:24:58.151 -07:00 [DBG] Connection id "0HN3CI5KSRAVT" stopped.
+2024-05-04 16:24:58.153 -07:00 [DBG] Connection id "0HN3CI5KSRAVU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:24:58.154 -07:00 [DBG] Connection id "0HN3CI5KSRAVT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:24:58.195 -07:00 [DBG] Connection id "0HN3CI5KSRAVV" accepted.
+2024-05-04 16:24:58.197 -07:00 [DBG] Connection id "0HN3CI5KSRAVV" started.
+2024-05-04 16:24:58.216 -07:00 [DBG] Connection 0HN3CI5KSRAVV established using the following protocol: "Tls12"
+2024-05-04 16:24:58.242 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - null null
+2024-05-04 16:24:58.295 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-04 16:24:58.342 -07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-05-04 16:24:58.344 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-04 16:24:58.354 -07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-05-04 16:24:58.356 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-04 16:24:58.358 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - 200 null text/html;charset=utf-8 117.9834ms
+2024-05-04 16:24:58.371 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2024-05-04 16:24:58.371 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 16:24:58.384 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 13.3614ms
+2024-05-04 16:24:58.400 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.8301ms
+2024-05-04 16:24:58.419 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - null null
+2024-05-04 16:24:58.510 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 91.1466ms
+2024-05-04 16:24:59.775 -07:00 [DBG] Connection id "0HN3CI5KSRB00" accepted.
+2024-05-04 16:24:59.775 -07:00 [DBG] Connection id "0HN3CI5KSRB00" received FIN.
+2024-05-04 16:24:59.776 -07:00 [DBG] Connection id "0HN3CI5KSRB00" started.
+2024-05-04 16:24:59.777 -07:00 [DBG] Connection id "0HN3CI5KSRB01" accepted.
+2024-05-04 16:24:59.779 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:24:59.779 -07:00 [DBG] Connection id "0HN3CI5KSRB01" started.
+2024-05-04 16:24:59.782 -07:00 [DBG] Connection id "0HN3CI5KSRB00" stopped.
+2024-05-04 16:24:59.783 -07:00 [DBG] Connection id "0HN3CI5KSRB00" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:24:59.786 -07:00 [DBG] Connection 0HN3CI5KSRB01 established using the following protocol: "Tls12"
+2024-05-04 16:24:59.791 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:24:59.794 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:24:59.808 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:24:59.811 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:24:59.813 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:24:59.876 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:24:59.882 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:24:59.886 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:24:59.888 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:24:59.892 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:24:59.895 -07:00 [DBG] Connection id "0HN3CI5KSRB01" completed keep alive response.
+2024-05-04 16:24:59.896 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 104.2386ms
+2024-05-04 16:25:15.113 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:25:15.115 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:25:15.117 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:25:15.118 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:25:15.120 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:25:15.123 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:25:15.129 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:25:15.132 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:25:15.132 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:25:15.134 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:25:15.135 -07:00 [DBG] Connection id "0HN3CI5KSRB01" completed keep alive response.
+2024-05-04 16:25:15.136 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 22.5717ms
+2024-05-04 16:25:33.611 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:25:33.613 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:25:33.614 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:25:33.615 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:25:33.616 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:25:33.618 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:25:33.622 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:25:33.624 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:25:33.627 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:25:33.628 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:25:33.629 -07:00 [DBG] Connection id "0HN3CI5KSRB01" completed keep alive response.
+2024-05-04 16:25:33.630 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 18.6014ms
+2024-05-04 16:27:50.872 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-04 16:27:50.934 -07:00 [DBG] Hosting starting
+2024-05-04 16:27:50.959 -07:00 [INF] User profile is available. Using 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 16:27:50.966 -07:00 [DBG] Reading data from file 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys\key-af082861-6fdc-4cd8-b82d-7c2cb61daaac.xml'.
+2024-05-04 16:27:50.972 -07:00 [DBG] Found key {af082861-6fdc-4cd8-b82d-7c2cb61daaac}.
+2024-05-04 16:27:50.982 -07:00 [DBG] Considering key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} with expiration date 2024-08-02 22:21:15Z as default key.
+2024-05-04 16:27:50.985 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:27:50.988 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-04 16:27:50.990 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:27:50.994 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-04 16:27:50.996 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-04 16:27:50.998 -07:00 [DBG] Using key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} as the default key.
+2024-05-04 16:27:51.000 -07:00 [DBG] Key ring with default key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} was loaded during application startup.
+2024-05-04 16:27:51.094 -07:00 [INF] Now listening on: https://localhost:7186
+2024-05-04 16:27:51.095 -07:00 [INF] Now listening on: http://localhost:5226
+2024-05-04 16:27:51.096 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-05-04 16:27:51.097 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-04 16:27:51.097 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-04 16:27:51.098 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 16:27:51.099 -07:00 [INF] Hosting environment: Development
+2024-05-04 16:27:51.100 -07:00 [INF] Content root path: D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API
+2024-05-04 16:27:51.100 -07:00 [DBG] Hosting started
+2024-05-04 16:27:51.415 -07:00 [DBG] Connection id "0HN3CI78HPFQA" accepted.
+2024-05-04 16:27:51.416 -07:00 [DBG] Connection id "0HN3CI78HPFQA" started.
+2024-05-04 16:27:51.425 -07:00 [DBG] Connection id "0HN3CI78HPFQA" received FIN.
+2024-05-04 16:27:51.425 -07:00 [DBG] Connection id "0HN3CI78HPFQB" received FIN.
+2024-05-04 16:27:51.434 -07:00 [DBG] Connection id "0HN3CI78HPFQB" accepted.
+2024-05-04 16:27:51.435 -07:00 [DBG] Connection id "0HN3CI78HPFQB" started.
+2024-05-04 16:27:51.436 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:27:51.435 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:27:51.458 -07:00 [DBG] Connection id "0HN3CI78HPFQB" stopped.
+2024-05-04 16:27:51.463 -07:00 [DBG] Connection id "0HN3CI78HPFQA" stopped.
+2024-05-04 16:27:51.467 -07:00 [DBG] Connection id "0HN3CI78HPFQA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:27:51.467 -07:00 [DBG] Connection id "0HN3CI78HPFQB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:27:51.514 -07:00 [DBG] Connection id "0HN3CI78HPFQC" accepted.
+2024-05-04 16:27:51.515 -07:00 [DBG] Connection id "0HN3CI78HPFQC" started.
+2024-05-04 16:27:51.535 -07:00 [DBG] Connection 0HN3CI78HPFQC established using the following protocol: "Tls12"
+2024-05-04 16:27:51.561 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - null null
+2024-05-04 16:27:51.615 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-04 16:27:51.663 -07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-05-04 16:27:51.665 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-04 16:27:51.675 -07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-05-04 16:27:51.677 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-04 16:27:51.680 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - 200 null text/html;charset=utf-8 121.7917ms
+2024-05-04 16:27:51.710 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2024-05-04 16:27:51.710 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 16:27:51.722 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 12.3674ms
+2024-05-04 16:27:51.739 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.1369ms
+2024-05-04 16:27:51.761 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - null null
+2024-05-04 16:27:51.857 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 96.0537ms
+2024-05-04 16:28:41.871 -07:00 [DBG] Connection id "0HN3CI78HPFQD" received FIN.
+2024-05-04 16:28:41.871 -07:00 [DBG] Connection id "0HN3CI78HPFQD" accepted.
+2024-05-04 16:28:41.876 -07:00 [DBG] Connection id "0HN3CI78HPFQD" started.
+2024-05-04 16:28:41.877 -07:00 [DBG] Connection id "0HN3CI78HPFQE" accepted.
+2024-05-04 16:28:41.881 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:28:41.881 -07:00 [DBG] Connection id "0HN3CI78HPFQE" started.
+2024-05-04 16:28:41.883 -07:00 [DBG] Connection id "0HN3CI78HPFQD" stopped.
+2024-05-04 16:28:41.885 -07:00 [DBG] Connection id "0HN3CI78HPFQD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:28:41.888 -07:00 [DBG] Connection 0HN3CI78HPFQE established using the following protocol: "Tls12"
+2024-05-04 16:28:41.891 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:28:41.894 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:28:41.909 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:28:41.912 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:28:41.914 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:28:41.976 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:28:41.982 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:28:41.985 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:28:41.987 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:28:41.990 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:28:41.992 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:28:41.992 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 101.1571ms
+2024-05-04 16:29:11.808 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:29:11.810 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:29:11.813 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:29:11.814 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:29:11.815 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:29:11.817 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:29:11.821 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:29:11.823 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:29:11.824 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:29:11.824 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:29:11.825 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:29:11.826 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 17.8494ms
+2024-05-04 16:29:13.794 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:29:13.797 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:29:13.797 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:29:13.798 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:29:13.799 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:29:13.801 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:29:13.804 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:29:13.806 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:29:13.806 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:29:13.807 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:29:13.808 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:29:13.809 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 14.1556ms
+2024-05-04 16:29:15.256 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:29:15.258 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:29:15.259 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:29:15.260 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:29:15.262 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:29:15.263 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:29:15.267 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:29:15.268 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:29:15.269 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:29:15.270 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:29:15.271 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:29:15.272 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 15.9151ms
+2024-05-04 16:29:18.683 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:29:18.685 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:29:18.686 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:29:18.687 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:29:18.688 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:29:18.689 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:29:18.691 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:29:18.692 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:29:18.693 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:29:18.694 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:29:18.695 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:29:18.696 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 12.9599ms
+2024-05-04 16:29:53.324 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:29:53.325 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:29:53.327 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:29:53.328 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:29:53.329 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:29:53.330 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:29:53.333 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:29:53.334 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:29:53.335 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:29:53.336 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:29:53.337 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:29:53.337 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 13.7251ms
+2024-05-04 16:29:54.253 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:29:54.255 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:29:54.256 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:29:54.257 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:29:54.258 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:29:54.259 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:29:54.262 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:29:54.263 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:29:54.264 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:29:54.264 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:29:54.265 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:29:54.266 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 12.3771ms
+2024-05-04 16:29:54.677 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:29:54.679 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:29:54.679 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:29:54.680 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:29:54.681 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:29:54.682 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:29:54.684 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:29:54.685 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:29:54.686 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:29:54.687 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:29:54.687 -07:00 [DBG] Connection id "0HN3CI78HPFQE" completed keep alive response.
+2024-05-04 16:29:54.688 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 11.4572ms
+2024-05-04 16:30:40.583 -07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-05-04 16:30:40.648 -07:00 [DBG] Hosting starting
+2024-05-04 16:30:40.673 -07:00 [INF] User profile is available. Using 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 16:30:40.680 -07:00 [DBG] Reading data from file 'C:\Users\joshu\AppData\Local\ASP.NET\DataProtection-Keys\key-af082861-6fdc-4cd8-b82d-7c2cb61daaac.xml'.
+2024-05-04 16:30:40.685 -07:00 [DBG] Found key {af082861-6fdc-4cd8-b82d-7c2cb61daaac}.
+2024-05-04 16:30:40.693 -07:00 [DBG] Considering key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} with expiration date 2024-08-02 22:21:15Z as default key.
+2024-05-04 16:30:40.697 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:30:40.699 -07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-05-04 16:30:40.700 -07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-04 16:30:40.704 -07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-05-04 16:30:40.705 -07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-05-04 16:30:40.707 -07:00 [DBG] Using key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} as the default key.
+2024-05-04 16:30:40.708 -07:00 [DBG] Key ring with default key {af082861-6fdc-4cd8-b82d-7c2cb61daaac} was loaded during application startup.
+2024-05-04 16:30:40.800 -07:00 [INF] Now listening on: https://localhost:7186
+2024-05-04 16:30:40.801 -07:00 [INF] Now listening on: http://localhost:5226
+2024-05-04 16:30:40.802 -07:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-05-04 16:30:40.803 -07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-04 16:30:40.804 -07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-04 16:30:40.805 -07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-04 16:30:40.807 -07:00 [INF] Hosting environment: Development
+2024-05-04 16:30:40.808 -07:00 [INF] Content root path: D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API
+2024-05-04 16:30:40.809 -07:00 [DBG] Hosting started
+2024-05-04 16:30:41.094 -07:00 [DBG] Connection id "0HN3CI8R3VJTV" received FIN.
+2024-05-04 16:30:41.098 -07:00 [DBG] Connection id "0HN3CI8R3VJTV" accepted.
+2024-05-04 16:30:41.099 -07:00 [DBG] Connection id "0HN3CI8R3VJTV" started.
+2024-05-04 16:30:41.109 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:30:41.137 -07:00 [DBG] Connection id "0HN3CI8R3VJTV" stopped.
+2024-05-04 16:30:41.141 -07:00 [DBG] Connection id "0HN3CI8R3VJTV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:30:41.178 -07:00 [DBG] Connection id "0HN3CI8R3VJU0" accepted.
+2024-05-04 16:30:41.179 -07:00 [DBG] Connection id "0HN3CI8R3VJU0" started.
+2024-05-04 16:30:41.201 -07:00 [DBG] Connection 0HN3CI8R3VJU0 established using the following protocol: "Tls12"
+2024-05-04 16:30:41.227 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/index.html - null null
+2024-05-04 16:30:41.280 -07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-05-04 16:30:41.325 -07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-05-04 16:30:41.327 -07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-05-04 16:30:41.337 -07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-05-04 16:30:41.338 -07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-05-04 16:30:41.340 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/index.html - 200 null text/html;charset=utf-8 115.3515ms
+2024-05-04 16:30:41.356 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_vs/browserLink - null null
+2024-05-04 16:30:41.356 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 16:30:41.369 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 12.9963ms
+2024-05-04 16:30:41.385 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.1385ms
+2024-05-04 16:30:41.401 -07:00 [INF] Request starting HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - null null
+2024-05-04 16:30:41.490 -07:00 [INF] Request finished HTTP/2 GET https://localhost:7186/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 89.5371ms
+2024-05-04 16:30:45.259 -07:00 [DBG] Connection id "0HN3CI8R3VJU1" accepted.
+2024-05-04 16:30:45.259 -07:00 [DBG] Connection id "0HN3CI8R3VJU1" received FIN.
+2024-05-04 16:30:45.261 -07:00 [DBG] Connection id "0HN3CI8R3VJU1" started.
+2024-05-04 16:30:45.261 -07:00 [DBG] Connection id "0HN3CI8R3VJU2" accepted.
+2024-05-04 16:30:45.263 -07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-04 16:30:45.263 -07:00 [DBG] Connection id "0HN3CI8R3VJU2" started.
+2024-05-04 16:30:45.265 -07:00 [DBG] Connection id "0HN3CI8R3VJU1" stopped.
+2024-05-04 16:30:45.266 -07:00 [DBG] Connection id "0HN3CI8R3VJU1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-04 16:30:45.269 -07:00 [DBG] Connection 0HN3CI8R3VJU2 established using the following protocol: "Tls12"
+2024-05-04 16:30:45.271 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:30:45.274 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:30:45.288 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:30:45.291 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:30:45.293 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:30:45.358 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:30:45.363 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:30:45.366 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:30:45.368 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:30:45.371 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:30:45.373 -07:00 [DBG] Connection id "0HN3CI8R3VJU2" completed keep alive response.
+2024-05-04 16:30:45.373 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 102.2399ms
+2024-05-04 16:30:53.529 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:30:53.531 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:30:53.532 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:30:53.533 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:30:53.533 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:30:53.536 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:30:53.540 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:30:53.541 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:30:53.542 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:30:53.543 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:30:53.544 -07:00 [DBG] Connection id "0HN3CI8R3VJU2" completed keep alive response.
+2024-05-04 16:30:53.544 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 15.7144ms
+2024-05-04 16:31:12.565 -07:00 [INF] Request starting HTTP/1.1 GET https://localhost:7186/api/cities - null null
+2024-05-04 16:31:12.567 -07:00 [DBG] The request path  does not match the path filter
+2024-05-04 16:31:12.568 -07:00 [DBG] 1 candidate(s) found for the request path '/api/cities'
+2024-05-04 16:31:12.568 -07:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)' with route pattern 'api/cities' is valid for the request path '/api/cities'
+2024-05-04 16:31:12.569 -07:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (CityInfo.API)'
+2024-05-04 16:31:12.571 -07:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2024-05-04 16:31:12.575 -07:00 [INF] Bearer was not authenticated. Failure message: IDX10517: Signature validation failed. The token's kid is missing. Keys tried: 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey, KeyId: '', InternalId: 's58Ensipe_-3nR5NznJXMGLc4C91LCgGnYDlWoEcRfw'. , KeyId: 
+'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+2024-05-04 16:31:12.576 -07:00 [DBG] Policy authentication schemes  did not succeed
+2024-05-04 16:31:12.577 -07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-04 16:31:12.578 -07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-05-04 16:31:12.578 -07:00 [DBG] Connection id "0HN3CI8R3VJU2" completed keep alive response.
+2024-05-04 16:31:12.579 -07:00 [INF] Request finished HTTP/1.1 GET https://localhost:7186/api/cities - 401 0 null 14.2756ms
