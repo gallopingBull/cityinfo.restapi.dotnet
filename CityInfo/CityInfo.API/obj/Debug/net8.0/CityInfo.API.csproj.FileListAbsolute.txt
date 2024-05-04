@@ -148,3 +148,6 @@ D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\De
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

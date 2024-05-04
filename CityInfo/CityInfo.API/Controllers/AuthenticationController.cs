@@ -61,7 +61,7 @@ namespace CityInfo.API.Controllers
             var user = ValidateUserCredentials(authenticationRequestBody.UserName, authenticationRequestBody.Password);
             if (user == null) { return Unauthorized(); }
 
-            // Step 2: create a token
+
             // Step 2: create a token
             var securityKey = new SymmetricSecurityKey(
                 Encoding.ASCII.GetBytes(_configuration["Authentication:SecretForKey"]));
