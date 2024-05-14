@@ -8,7 +8,7 @@ using System.Text.Json;
 namespace CityInfo.API.Controllers
 {
     [ApiController]
-    [Authorize]
+    //[Authorize]
     [Route("api/cities")]
     //[Route("api/[controller]")] <-- this will automatically add the controller name to the URI.
     public class CitiesController : ControllerBase
