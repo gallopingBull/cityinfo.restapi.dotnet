@@ -43,6 +43,12 @@ namespace CityInfo.API.Controllers
             //return Ok(_cityDataStore.Cities);
         }
 
+        /// <summary>
+        /// Get a city by id
+        /// </summary>
+        /// <param name="id">The id of the city to get</param>
+        /// <param name="includePointsOfInterest">Whether or not to include the points of interest</param>
+        /// <returns>A city with or without points of interest</returns>
         [HttpGet("{id}")]   
         public async Task<ActionResult<CityDto>> GetCity(int id, bool includePointsOfInterest = false) 
         {
