@@ -10,7 +10,7 @@ namespace CityInfo.API.Controllers
 {
     [ApiController]
     //[Authorize]
-    [Route("api/cities")]
+    [Route("api/v{version:apiVersion}/cities")]
     [ApiVersion(1)]
     [ApiVersion(2)]
     //[Route("api/[controller]")] <-- this will automatically add the controller name to the URI.
