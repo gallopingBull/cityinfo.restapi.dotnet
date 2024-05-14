@@ -155,3 +155,4 @@ D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\De
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Http.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Mvc.dll
 D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\CityInfo.API.xml
+D:\src\dotnet Projects\APIs\cityinfo.restapi.dotnet\CityInfo\CityInfo.API\bin\Debug\net8.0\Asp.Versioning.Mvc.ApiExplorer.dll

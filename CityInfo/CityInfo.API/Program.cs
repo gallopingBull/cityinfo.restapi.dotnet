@@ -1,4 +1,5 @@
 using Asp.Versioning;
+using Asp.Versioning.ApiExplorer;
 using CityInfo.API;
 using CityInfo.API.DbContexts;
 using CityInfo.API.Services;
@@ -39,13 +40,8 @@ builder.Services.AddProblemDetails();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen(setupAction =>
-{
-    var xmlCommentsFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentsFile);
 
-    setupAction.IncludeXmlComments(xmlCommentsFullPath);
-});
+
 builder.Services.AddSingleton<FileExtensionContentTypeProvider>();
 
 #if DEBUG
@@ -91,7 +87,33 @@ builder.Services.AddApiVersioning(setupAction =>
     setupAction.ReportApiVersions = true;
     setupAction.AssumeDefaultVersionWhenUnspecified = true;
     setupAction.DefaultApiVersion = new ApiVersion(1, 0);
-}).AddMvc();
+}).AddMvc()
+.AddApiExplorer(setupAction =>
+{
+    setupAction.SubstituteApiVersionInUrl = true;
+});
+
+var apiVersionDescriptionProvider = builder.Services.BuildServiceProvider()
+    .GetRequiredService<IApiVersionDescriptionProvider>();
+
+builder.Services.AddSwaggerGen(setupAction =>
+{
+    foreach(var description in apiVersionDescriptionProvider.ApiVersionDescriptions)
+    {
+        setupAction.SwaggerDoc($"{description.GroupName}",
+            new()
+            { 
+                Title = "City Info API",
+                Version = description.ApiVersion.ToString(),
+                Description = "Through this API you can access cities and their points of interest"
+            });
+    }
+
+    var xmlCommentsFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlCommentsFullPath = Path.Combine(AppContext.BaseDirectory, xmlCommentsFile);
+
+    setupAction.IncludeXmlComments(xmlCommentsFullPath);
+});
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
@@ -103,7 +125,16 @@ if (!app.Environment.IsDevelopment())
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(setupAction =>
+    {
+        var descriptions = app.DescribeApiVersions();   
+        foreach(var desc in descriptions)
+        {
+            setupAction.SwaggerEndpoint(
+                $"/swagger/{desc.GroupName}/swagger.json",
+                desc.GroupName.ToUpperInvariant());
+        }
+    });
 }
 
 app.UseHttpsRedirection();

@@ -9,6 +9,7 @@
       "CityInfo.API/1.0.0": {
         "dependencies": {
           "Asp.Versioning.Mvc": "8.0.0",
+          "Asp.Versioning.Mvc.ApiExplorer": "8.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.0",
           "Microsoft.AspNetCore.JsonPatch": "8.0.4",
@@ -57,6 +58,17 @@
           "lib/net8.0/Asp.Versioning.Mvc.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.8742.36024"
+          }
+        }
+      },
+      "Asp.Versioning.Mvc.ApiExplorer/8.0.0": {
+        "dependencies": {
+          "Asp.Versioning.Mvc": "8.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.8742.36042"
           }
         }
       },
@@ -1050,6 +1062,13 @@
       "sha512": "sha512-zxuA7J6HewdjFF/9Cfb6VWovBTj3MdmLg6PztInratlXGpJ+BZjQzoT8FEMOurzmCxbEFPlQmeMW7b1iJKfsdg==",
       "path": "asp.versioning.mvc/8.0.0",
       "hashPath": "asp.versioning.mvc.8.0.0.nupkg.sha512"
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jrNwSdQ/FNGbwnb6SpNRuAZpJ5qrlSrEwOWaXFLc8vCC14bo/2ihwJ3IJWRbSnijLUyB9j9eKFVcVi1l8ShzZw==",
+      "path": "asp.versioning.mvc.apiexplorer/8.0.0",
+      "hashPath": "asp.versioning.mvc.apiexplorer.8.0.0.nupkg.sha512"
     },
     "AutoMapper/12.0.1": {
       "type": "package",

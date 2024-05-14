@@ -53,6 +53,22 @@
           }
         }
       },
+      "Asp.Versioning.Mvc.ApiExplorer/8.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Asp.Versioning.Mvc": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "AutoMapper/12.0.1": {
         "type": "package",
         "dependencies": {
@@ -1713,6 +1729,22 @@
         "icon.png",
         "lib/net8.0/Asp.Versioning.Mvc.dll",
         "lib/net8.0/Asp.Versioning.Mvc.xml"
+      ]
+    },
+    "Asp.Versioning.Mvc.ApiExplorer/8.0.0": {
+      "sha512": "jrNwSdQ/FNGbwnb6SpNRuAZpJ5qrlSrEwOWaXFLc8vCC14bo/2ihwJ3IJWRbSnijLUyB9j9eKFVcVi1l8ShzZw==",
+      "type": "package",
+      "path": "asp.versioning.mvc.apiexplorer/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "asp.versioning.mvc.apiexplorer.8.0.0.nupkg.sha512",
+        "asp.versioning.mvc.apiexplorer.nuspec",
+        "icon.png",
+        "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.dll",
+        "lib/net8.0/Asp.Versioning.Mvc.ApiExplorer.xml"
       ]
     },
     "AutoMapper/12.0.1": {
@@ -4321,6 +4353,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Asp.Versioning.Mvc >= 8.0.0",
+      "Asp.Versioning.Mvc.ApiExplorer >= 8.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.0",
       "Microsoft.AspNetCore.JsonPatch >= 8.0.4",
@@ -4386,6 +4419,10 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Asp.Versioning.Mvc": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "Asp.Versioning.Mvc.ApiExplorer": {
             "target": "Package",
             "version": "[8.0.0, )"
           },
