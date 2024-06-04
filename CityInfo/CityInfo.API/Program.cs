@@ -7,20 +7,54 @@ using Microsoft.AspNetCore.StaticFiles;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.ApplicationInsights.Extensibility;
 using Serilog;
 using System.Reflection;
 using System.Text;
+using Azure.Security.KeyVault.Secrets;
+using Azure.Identity;
+using Azure.Extensions.AspNetCore.Configuration.Secrets;
 
 Log.Logger = new LoggerConfiguration()
     .MinimumLevel.Debug()
     .WriteTo.Console()
-    .WriteTo.File("logs/cityinfo.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 
 var builder = WebApplication.CreateBuilder(args);
 //builder.Logging.ClearProviders();
 //builder.Logging.AddConsole();
-builder.Host.UseSerilog();
+
+var enviornment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
+if (enviornment == Environments.Development)
+{
+    builder.Host.UseSerilog((context, loggerConfiguration) => loggerConfiguration
+
+    .MinimumLevel.Debug()
+    .WriteTo.Console());
+}
+else
+{
+   var secretClient = new SecretClient(
+       new Uri("https://demo-cityinfoapi.azurewebsites.net/"),
+       new DefaultAzureCredential());
+
+    builder.Configuration.AddAzureKeyVault(secretClient, new KeyVaultSecretManager());
+
+    builder.Host.UseSerilog((context, loggerConfiguration) => loggerConfiguration
+
+    .MinimumLevel.Debug()
+    .WriteTo.Console()
+    .WriteTo.File("logs/cityinfo.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.ApplicationInsights(
+        new TelemetryConfiguration()
+        {
+            InstrumentationKey = "YOUR_INSTRUMENTATION_KEY"
+        },
+        TelemetryConverter.Traces
+        ));
+}
+
 
 // Add services to the container
 builder.Services.AddControllers(options =>
@@ -138,15 +172,24 @@ builder.Services.AddSwaggerGen(setupAction =>
     });
 });
 
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+{
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor 
+    | ForwardedHeaders.XForwardedProto;
+});
+
 var app = builder.Build();
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler();
 }
 
-if (app.Environment.IsDevelopment())
-{
+app.UseForwardedHeaders();
+
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI(setupAction =>
     {
@@ -158,7 +201,7 @@ if (app.Environment.IsDevelopment())
                 desc.GroupName.ToUpperInvariant());
         }
     });
-}
+//}
 
 app.UseHttpsRedirection();
 
